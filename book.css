@@ -1,0 +1,207 @@
+h1{color: green;font-size: 50px;padding-left: 400px; height: 100px; height: 100px;}
+.ps {font-size: 50px; color:white ;font-style: oblique;}
+nav{color:white; font-size: 40px; padding-top: 50px; padding-left: 400px; font-style: oblique;}
+.pp{font-size: 30px;font-style: oblique; color:white;}
+.moby img {margin-left: 00px;padding-bottom: 0px; padding-top: 00px; overflow: hidden; position: relative;border: 5px solid #fafafa;margin-top: 20px; display: block;}
+.moby:hover img {opacity:0.5 ; 
+    filter: grayscale(10%); 
+    transition-duration: 0.8s;
+    width: 250px;
+    height:230px ;}
+
+
+  .ad {
+    display: flex;
+    flex-direction:row;
+justify-content: space-around;  }
+.cta {
+    border: none;
+    background:white;
+  }
+  
+  .cta span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 14px;
+    padding-right: 15px;
+    margin-left: 510px;
+    margin-right: 580px;
+    text-transform: uppercase;
+  }
+  
+  .cta svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+  }
+  .bookname{
+    display: none;
+  }
+
+  .cta:hover svg {
+    transform: translateX(0);
+  }
+  
+  .cta:active svg {
+    transform: scale(0.9);
+  }
+  
+  .hover-underline-animation {
+    position: relative;
+    color: black;
+    padding-bottom: 20px;
+  }
+  
+  .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .burger {
+    position: relative;
+    width: 40px;
+    height: 30px;
+    background: transparent;
+    cursor: pointer;
+    display: block;
+  }
+  
+  .burger input {
+    display: none;
+  }
+  
+  .burger span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: white;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+  }
+  
+  .burger span:nth-of-type(1) {
+    top: 0px;
+    transform-origin: left center;
+  }
+  
+  .burger span:nth-of-type(2) {
+    top: 50%;
+    transform: translateY(-50%);
+    transform-origin: left center;
+  }
+  
+  .burger span:nth-of-type(3) {
+    top: 100%;
+    transform-origin: left center;
+    transform: translateY(-100%);
+  }
+  
+  .burger input:checked ~ span:nth-of-type(1) {
+    transform: rotate(45deg);
+    top: 0px;
+    left: 5px;
+  }
+  
+  .burger input:checked ~ span:nth-of-type(2) {
+    width: 0%;
+    opacity: 0;
+  }
+  
+  .burger input:checked ~ span:nth-of-type(3) {
+    transform: rotate(-45deg);
+    top: 28px;
+    left: 5px;
+  }
+  .input-style {
+    padding: 10px;
+    border: 4px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+    margin-left: 450px;
+    margin-top: 20px;
+    width: 300px;
+  }
+  
+  .input-style:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  .us img {
+
+width: 40px;
+height: 40px;
+display: flex;
+    flex-direction:row;
+justify-content: space-around;
+  }
+  .us {display: flex; flex-direction: row; justify-content:space-evenly; border-radius: 100%; padding: 10px;
+
+}
+.bb { color: white; display: flex; flex-direction: row; justify-content: space-between;}
+
+  .ss img {margin-left: 00px;padding-bottom: 0px; padding-top: 00px; overflow: hidden; position: relative;border: 5px solid #fafafa;margin-top: 20px; display: block;}
+.ss:hover img {opacity:0.5 ; 
+    filter: grayscale(10%); 
+    transition-duration: 0.2s;
+    width: 250px;
+    height:230px ;}
+    .isr {
+        display: flex;
+        flex-direction:row;
+    justify-content: space-around;  }
+    .sell {
+        font-size: 50px; color: white; font-style: oblique; padding-left: 470px;
+    }
+    .button {
+        width: 180px;
+        height: 40px;
+        background-image: linear-gradient(rgb(214, 202, 254), rgb(158, 129, 254));
+        border: none;
+        border-radius: 50px;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        cursor: pointer;
+        box-shadow: 1px 3px 0px rgb(139, 113, 255);
+        transition-duration: .3s;
+        margin-left: 40px;
+      }
+      
+      .cartIcon {
+        width: 14px;
+        height: fit-content;
+      }
+      
+      .cartIcon path {
+        fill: white;
+      }
+      
+      .button:active {
+        transform: translate(2px ,0px);
+        box-shadow: 0px 1px 0px rgb(139, 113, 255);
+        padding-bottom: 1px;
+      }
+      
+    .moby:hover .bookname{
+        display: block;
+    }
